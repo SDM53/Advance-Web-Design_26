@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    font-family: system-ui, sans-serif;
+    background: #74c365;
+    color: #1A2421;
+}
+
+.Top {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.Top h1 {
+    margin: 0;
+}
+
+.Top p {
+    margin: 4px 0 0 0;
+    opacity: 0.7;
+}
+
+.card {
+    width: min (600px, 100%);
+    background: #a8e4a0;
+    padding: 16px;
+    box-shadow: 0 10px 24px rgb(4, 41, 3);
+}
+
+.rowForm {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+input, select {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #f0fff0;
+}
+
+button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    background: #00a86b;
+    color: #f0fff0;
+    cursor: pointer;
+}
+
+section {
+    margin-top: 16px;
+}
+
+section h3 {
+    margin: 0 0 6px;
+    font-size: 14px;
+    color: #00a86b;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 8px;
+}
+
+.list li {
+    padding: 10px;
+    border-radius: 10px;
+    background: #f0fff0;
+}
+
+.summary li {
+    background: #f0fff0;
+    color: #0b6623;
+}
